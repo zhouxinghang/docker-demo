@@ -1,0 +1,11 @@
+server:
+  port: 9010
+
+app:
+  env: prod
+
+
+logging:
+  config: classpath:logback-prod.xml
+  level:
+    com.qidian.portal: info
